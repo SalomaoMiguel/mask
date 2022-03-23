@@ -89,7 +89,9 @@ test:
 #
 production:
   <<: *default
-  database: mask_production
-  url: <%= ENV['MY_APP_DATABASE_URL'] %>
+  database: ENV['DATABASE_URL']
+  adapter: postgresql
+  pool: 5
+  timeout: 5000
   # username: postgres
   # password: <%= ENV["MASK_DATABASE_PASSWORD"] %>
