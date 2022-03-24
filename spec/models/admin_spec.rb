@@ -2,7 +2,7 @@ require 'rails_helper'
 
 RSpec.describe Admin, type: :model do
   it "Admin is valid" do
-    admin = Admin.new(email: "admin@example.com", password: "123456")
+    admin = Admin.new(email: "admin@example.com", password: "123456", name:"admin")
 
     expect(admin.email).to eq("admin@example.com")
     expect(admin).to be_valid
