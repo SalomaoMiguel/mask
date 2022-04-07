@@ -1,1 +1,7 @@
-{}
+{
+  "editor.fontSize": 13,
+  "editor.letterSpacing": 0.6,
+  "editor.bracketPairColorization.enabled": true,
+  "editor.guides.bracketPairs":"active",
+  "editor.defaultFormatter": "esbenp.prettier-vscode",
+}
