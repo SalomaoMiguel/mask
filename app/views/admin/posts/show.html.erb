@@ -1,0 +1,8 @@
+<h4>Post # <%= @post.id %></h4><br>
+    <div class="card text-white bg-dark mb-3 mt-3">
+      <div class="card-header text-center align-center "><h5><%= @post.user.name %></h5><small class=""><%= image_tag(@post.user.avatar, class:'ui-w-100-forced rounded-circle', style:'width: 30px; height: 30px;' ) %></small></div>
+      <div class="card-body">
+        <small class="text-muted"><%= @post.created_at.strftime("%d/%m/%Y %H:%M") %></small>
+        <p class="card-text"><%= @post.body %></p>
+      </div>
+    </div>

@@ -1,0 +1,22 @@
+<h4>Posts</h4><br>
+
+<table class="table table-dark">
+  <thead>
+    <tr>
+      <th scope="col">#</th>
+      <th scope="col">Photo</th>
+      <th scope="col">Post</th>
+      <th scope="col">Criado em</th>
+    </tr>
+  </thead>
+  <tbody>
+  <% @posts.each do  |post| %>
+    <tr>
+      <th scope="row"><%= post.id %></th>
+      <td><%= image_tag(post.user.avatar, class:'ui-w-100-forced rounded-circle', style:'width: 30px; height: 30px;' ) %><small class="align-center"> <%= post.user.name %></small></td></td>
+      <td><%=link_to  post.body.truncate(30), admin_post_path(post) %></td>
+      <td><%= post.created_at.strftime('%d/%m/%Y %H:%m') %></td>
+    </tr>
+    <% end%>
+  </tbody>
+</table>

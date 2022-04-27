@@ -1,0 +1,25 @@
+{
+  "recommendations": [
+    "atishay-jain.all-autocomplete",
+    "aliariff.auto-add-brackets",
+    "formulahendry.auto-close-tag",
+    "formulahendry.auto-rename-tag",
+    "shakram02.bash-beautify",
+    "hookyqr.beautify",
+    "pranaygp.vscode-css-peek",
+    "craigmaslowski.erb",
+    "mrmlnc.vscode-duplicate",
+    "2gua.rainbow-brackets",
+    "kaiwood.endwise",
+    "svipas.prettier-plus",
+    "esbenp.prettier-vscode",
+    "wingrunr21.vscode-ruby",
+    "vscode-icons-team.vscode-icons",
+    "vortizhe.simple-ruby-erb",
+    "riey.erb",
+    "aliariff.vscode-erb-beautify",
+    "zneuray.erb-vscode-snippets",
+    "castwide.solargraph",
+    "tobiasalthoff.atom-material-theme"
+  ]
+}
