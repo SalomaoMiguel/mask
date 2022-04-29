@@ -20,6 +20,10 @@
     "aliariff.vscode-erb-beautify",
     "zneuray.erb-vscode-snippets",
     "castwide.solargraph",
-    "tobiasalthoff.atom-material-theme"
+    "tobiasalthoff.atom-material-theme",
+    "uloco.theme-bluloco-light",
+    "akamud.vscode-theme-onedark",
+    "equinusocio.vsc-material-theme",
+    "jprestidge.theme-material-theme"
   ]
 }

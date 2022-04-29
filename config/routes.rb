@@ -14,10 +14,19 @@ Rails.application.routes.draw do
 
   namespace :user do
      get 'profile', to: "profile#show"
+     get 'potential_to_follow', to: "profile#potential_to_follow"
+     get 'following', to: "profile#following"
+     get 'followers', to: "profile#followers"
      resources :posts, only: :create
+
+    #  post para seguidores
+    post 'follow/:id', to: "subscriptions#follow", as: :follow
+    #Deixar de seguir
+    post 'unfollow/:id', to: "subscriptions#unfollow", as: :unfollow
   end
   # Define your application routes per the DSL in https://guides.rubyonrails.org/routing.html
 
   # Defines the root path route ("/")
   # root "articles#index"
+
 end
